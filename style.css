@@ -3,6 +3,10 @@
     background-color: #9370db;
     color: black;
     text-align: right;
+    position: sticky;
+    top: 0;
+    margin-left: 0%;
+    margin-right: 0%
 }
 
 h1 {
@@ -21,8 +25,7 @@ ul {
 }
 
 h2 {
-    display: flex;
-    
+    display: flex;  
 }
 
 section {
@@ -79,6 +82,11 @@ section {
     justify-content: center;
     align-items: stretch;
     padding: 2%;
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
 }
 
 @media (max-width: 375px) (max-height: 800px);
