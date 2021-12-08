@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,11 @@
     <title>Portfolio Website</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-<!--GIVEN I need to sample a potential employee's previous work
+    <!--GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+XX THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
 WHEN I click one of the links in the navigation
 THEN the UI scrolls to the corresponding section
 WHEN I click on the link to the section about their work
@@ -23,27 +25,52 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my-->
 
-<nav class="navbar">
-    <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
-    <ul class="menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Previous Work</a></li>
-        <li><a href="#">Contact Me</a></li>
-    </ul>
-    
-</nav>
+    <nav class="navbar">
+        <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Previous Work</a></li>
+            <li><a href="#">Contact Me</a></li>
+        </ul>
 
-<h1>William Gray Torrence<h1>
+    </nav>
 
-  <h2>About</h2>
-    <section><p>William Gray Torrence is a native of Washington, D.C. He went to Columbia College Chicago in Chicago, Illinois, to pursue a degree in film with a concentration in screenwriting. After graduating with his Bachelors of the Arts degree, he landed his dream job in the produce department of Whole Foods Market. From there he landed a physically demanding desk job at the Arlington Housing Corporation in Virginia. He currently is looking to expand his skills in web development for a refreshing career change.</p>
+    <h1>William Gray Torrence</h1>
+
+    <img src="./assets/65D95D41-8982-4C14-8D57-068700E02648.JPG" alt="Man With Mustache" width="500" height="500"
+        class="center">
+
+
+
+    <h2>About</h2>
+    <section>
+        <p>William Gray Torrence is a native of Washington, D.C. He went to Columbia College Chicago in Chicago,
+            Illinois, to pursue a degree in film with a concentration in screenwriting. After graduating with his
+            Bachelors of the Arts degree, he landed his dream job in the produce department of Whole Foods Market. From
+            there he landed a physically demanding desk job at the Arlington Housing Corporation in Virginia. He
+            currently is looking to expand his skills in web development for a refreshing career change.</p>
     </section>
 
 
-</section>
+
+    <h2>Get In Touch With Me</h2>
+    <div class="container1">
+        <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="First name...">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Last name...">
+
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="email" placeholder="Email Address...">
+
+                <input type="submit" value="Submit">
+                </form>
+    </div>
 </body>
-    
-</div>
-</body>
+
+
+
 </html>

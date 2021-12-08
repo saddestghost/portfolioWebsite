@@ -1,15 +1,23 @@
 
+
 .navbar {
     width: 100%;
     background-color: #9370db;
     color: black;
     text-align: right;
-    
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Courier', monospace;
+    text-align: center;
 }
 
 .logo {
 font-size: 32pt;
 text-align: center;
+margin: 0;
 }
 
 ul {
@@ -22,4 +30,17 @@ h2 {
 
 section {
     font-size: 16pt;
+    font-family: Courier, monospace;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container1 {
+    width: 75%;
+    resize: vertical;
+    
 }
